@@ -23,3 +23,5 @@ If you put secrets in the same repo, developers will cannot contribute to terraf
 The pipeline can run over Atlantis (https://www.runatlantis.io/). Atlantis can run over a EC2, ECS, k8s,... and will be triggered by a webhook from GitHub/Gitlab/... pipeline
 
 We can add tests in the pipeline like tfsec, FMT,..or many others.
+
+We will have to change terraform provider from 127.0.0.1 to the real Vault service address. 
